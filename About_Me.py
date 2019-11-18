@@ -3,9 +3,11 @@ print('Hi!')
 print('What is your name?')
 # ask for their name
 myName = input()
+nameLen = len(myName)
+print(nameLen)
+message = 'The length of your name is '
 print('It is good to meet you, ' + myName)
-print('The length of your name is:')
-print(len(myName) + 'ddf')
+print(message + str(nameLen) + ' letters.')
 print('What is your age?')
 # ask for their age
 myAge = input()
